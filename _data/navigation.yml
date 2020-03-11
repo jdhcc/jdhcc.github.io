@@ -1,6 +1,7 @@
-# Site navigation links
+# Menu navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: Theme Setup
+  url: /theme-setup/
+
+- title: External Link
+  url: http://mademistakes.com
