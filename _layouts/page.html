@@ -1,12 +1,16 @@
 ---
 layout: default
 ---
-
-<div class="container-fluid index">
-  <div class="row index all-posts">
-    <h2 class="header" itemprop="headline"> {{ page.title }} </h2>
-    <div class="col-md-12 content-panel articles">
-       {{ content }}
+<div class="row">
+    <div class="content">
+        <div class="sheet">
+            <header>
+                <h1>{{ page.title }}</h1>
+            </header>
+            <hr>
+            <article>
+                {{ content }}
+            </article>
+        </div>
     </div>
-  </div>
 </div>

@@ -1,56 +1,36 @@
-# Carte Noire
+##[点我查看中文说明/Click here for Chinese instructions](https://github.com/bit-ranger/blog/blob/gh-pages/README_zh_CN.md)
 
-A simple Jekyll theme for blogging. Not named after the coffee.
+# Blog Address
 
-![Homepage](http://i.imgur.com/xlmHArV.png)
+<https://bit-ranger.github.io/blog/>
 
-### Article
-![Article](http://i.imgur.com/8rD8FfC.png)
 
-### Disqus Comments
-![Comments](http://i.imgur.com/TBZHQwF.png)
+# Must Modify
 
-### Posts grouped by year
-![All Posts](http://i.imgur.com/9bNs2Sc.png)
+## 1.swiftype
 
-### JavaScript Search
-![Search](http://i.imgur.com/yQqMeSl.png)
+This service provides the on-site search function.
 
-### Menu by mmenu
-![Menu](http://i.imgur.com/SClrNSH.png)
+Service address: <https://swiftype.com/>.
 
-## Contact
-If you wish to contact me regarding this theme please raise an issue on GitHub,
-tweet me [@_jacobtomlinson](http://www.twitter.com/_jacobtomlinson) or email me
-[jacob@jacobtomlinson.co.uk](mailto:jacob@jacobtomlinson.co.uk).
+Documentation: <https://swiftype.com/documentation/site-search/crawler-quick-start/>
 
-## Contribution
-Pull requests are very welcome.
+After the setup is complete， you need to modify the `swiftype.searchId` in `_config.yml`.
 
-## Theme
-This jekyll theme has been created from scratch. Ideas and inspiration are taken
-from other places but the code is my own.
+In your swiftype engine, go to `Install Search`, you will find the `swiftype.searchId`.
 
-## Tools and Libraries
-The following tools and libraries are used in this theme
+```html
+<script type="text/javascript">
+...
+...
+  _st('install','swiftype.searchId','2.0.0');
+</script>
+```
 
-### JavaScript
- * [jQuery](http://jquery.com/)
- * [MMenu](http://mmenu.frebsite.nl/)
- * [HighlightJS](https://highlightjs.org/)
- * [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+## 2.gitment
 
-### CSS
- * [Bootstrap](http://getbootstrap.com/)
- * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+This service provides the comment function.
 
-### Social
- * [AddThis](http://www.addthis.com/)
- * [Disqus](https://disqus.com/)
+Service address： <https://github.com/imsun/gitment>.
 
-### Other
- * [Real Favicon Generator](http://realfavicongenerator.net/)
- * [Google Analytics](http://www.google.com/analytics/)
-
-## License
-The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3 (unless stated otherwise in the file).
+After the setup is complete， you need to modify the `gitment`  in `_config.yml`.
