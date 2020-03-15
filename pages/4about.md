@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: 기타
 permalink: /about/
 icon: octicon-heart
 ---
 
-自我介绍什么的，最讨厌了！
+. . .

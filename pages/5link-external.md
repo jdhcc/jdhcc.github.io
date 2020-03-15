@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Link
+title: 사이트 링크
 permalink: /link/
 icon: octicon-link-external
 
 ---
 
-### [github](https://github.com/bit-ranger/blog)
+### [github](https://github.com/jdhcc)

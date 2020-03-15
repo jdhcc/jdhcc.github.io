@@ -2,18 +2,12 @@
     layout: null
 ---
 
-/**
- * 页面ready方法
- */
 $(document).ready(function() {
     generateContent();
     // share();
     gitment();
 });
 
-/**
- * 侧边目录
- */
 function generateContent() {
     var $mt = $('.toc');
     var toc = $(".post ul#markdown-toc").clone().get(0);
@@ -24,7 +18,7 @@ function generateContent() {
 
 function share(){
     window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
-    with(document)0[getElementsByTagName("script")[0].parentNode.appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    with(document)0[getElementsByTagName("script")[0].parentNode.appendChild(createElement('script')).src='//www.google.co.kr/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
 }
 
 
@@ -41,5 +35,3 @@ function gitment() {
     gitment.render('post-comment')
     $("#post-comment").removeClass('hidden');
 }
-
-

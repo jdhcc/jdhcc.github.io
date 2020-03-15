@@ -4,7 +4,6 @@
  */
 (function($){
     $.fn.tagCloud = function(){
-
         var $this = $(this);
 
         for(var i=0; i<$this.length;i++){
@@ -14,19 +13,12 @@
         return $this;
 
         function execute(shell){
-            //半径
             var radius = 120;
-            //是否活动
             var active = true;
-            //是否分散
             var scatter = true;
-            //旋转速度
             var speed = 2;
-            //右旋偏移
             var rightOffset = 50;
-            //下旋偏移
             var downOffset = 0;
-            //与眼睛的距离
             var distance=300;
 
             var items = shell.getElementsByTagName('a');
