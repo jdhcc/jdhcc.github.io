@@ -1,13 +1,14 @@
 ---
 layout: post
 title: encode decode
-tags: servlet encode Java
+date: 2014-04-05 15:19:22 +0900
 categories: web
+tags: servlet encode Java
+comments_gitment: true
 ---
 
 * TOC
 {:toc}
-
 
 ~~~java
 public class HttpPrint {
@@ -49,7 +50,7 @@ public class HttpPrint {
 
 ![encodeURI][encodeURI]
 
-[get]: {{"/servlet-encode/get.png" | prepend: site.imgrepo }}
+[get]: {{"/assets/res/logo.png" | prepend: site.imgrepo }}
 [post]: {{"/servlet-encode/post.png" | prepend: site.imgrepo }}
 [encodeURI]: {{"/servlet-encode/encodeURI.png" | prepend: site.imgrepo }}
 [encodeURI-link]: http://www.w3school.com.cn/jsref/jsref_encodeuri.asp

@@ -1,0 +1,40 @@
+<div class="cloud">
+    {% for tag in site.tags %}
+    {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
+    {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
+    <a class="tag-chip" href="#{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{tag | first}}</a>
+    {% endfor %}
+</div>
+
+<div class="col s12 tag-div">
+  <div class="tag-list">
+    <div class="chip z-depth-1">등록된 태그 : {{site.tags | size}}개</div>
+    <div>
+      {% for tag in site.tags %}
+      {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
+      {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
+      <a class="tag-chip" href="#{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{tag[0]}} ({{tag | last | size}})</div></a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="tag-index">
+    {% for tag in site.tags %}
+    {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
+    {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
+    <h4 id="{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{tag[0]}}</h4>
+    <ul class="tag-post">
+      {% for post in tag[1] %}
+      <li>
+        <a class="post-title" href="{{site.baseurl}}{{post.url}}" target="_blank">
+          {{post.title}}
+          <small class="post-date">{{post.date | date: "%Y-%m-%d %H:%M:%S %p"}}</small>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>

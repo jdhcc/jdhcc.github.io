@@ -1,7 +1,10 @@
 ---
+layout: post
 title: Ruby Gem 추가 설치
-tags: ruby gem
+date: 2020-03-15 11:39:03 +0900
 categories: ruby
+tags: ruby gem
+comments_gitment: true
 ---
 * TOC
 {:toc}
