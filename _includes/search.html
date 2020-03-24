@@ -1,17 +1,31 @@
-<form action="/search">
-  <div class="tipue_search_left"><img src="{{ "/assets/tipuesearch/search.png" | relative_url }}" class="tipue_search_icon"></div>
-  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
-  <div style="clear: both;"></div>
-</form>
+<div id="results">
+  <h1><!-- `key` listing for `value` --></h1>
 
-<div id="tipue_search_content"></div>
+  <ul class="results">
+    <!-- results lists -->
+  </ul>
+</div>
 
-<script>
-$(document).ready(function() {
-  $('#tipue_search_input').tipuesearch({
-    'wholeWords' : false,
-    'showTime' : false,
-    'minimumLength' : 1
-  });
-});
+<div class="searchInfo">
+⊙ 검색기준 : 제목, 태그
+</div>
+
+<div id="search-container tag-index">
+<input type="text" id="search-input" placeholder="검색어를 입력해주세요!">
+<ul id="results-container" class="tag-post"></ul>
+</div>
+
+<script src="/dest/jekyll-search.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/assets/search2.json',
+        searchResultTemplate: '<li><a class="post-title" href="{url}" target="_blank">{title}<small class="post-date">{date}</small></a></li>',
+        noResultsText: '검색 결과가 없습니다.',
+        limit: 100,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
 </script>

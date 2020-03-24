@@ -1,0 +1,10 @@
+.postCount {
+    float: right;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.searchInfo {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
