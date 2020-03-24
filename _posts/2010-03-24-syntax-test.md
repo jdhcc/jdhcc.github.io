@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Syntax Highlighting Test
-date: 2010-03-24 01:30:13 +0900
+date: 2010-03-24 01:30:13
 categories: default
 tags: test syntax
 comments_gitment: true

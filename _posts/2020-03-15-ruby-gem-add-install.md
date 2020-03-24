@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ruby Gem 추가 설치
-date: 2020-03-15 11:39:03 +0900
+date: 2020-03-15 11:39:03
 categories: ruby
 tags: ruby gem
 comments_gitment: true

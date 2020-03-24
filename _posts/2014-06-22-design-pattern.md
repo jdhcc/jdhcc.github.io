@@ -1,7 +1,7 @@
 ---
 layout: post
 title: design pattern
-date: 2014-06-22 13:33:54 +0900
+date: 2014-06-22 13:33:54
 categories: common
 tags: design pattern
 comments_gitment: true

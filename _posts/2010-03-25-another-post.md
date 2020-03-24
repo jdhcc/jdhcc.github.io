@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is Just Another Post
-date: 2010-03-25 01:30:13 +0900
+date: 2010-03-25 01:30:13
 categories: default
 tags: test
 comments_gitment: true

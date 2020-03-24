@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Jekyll!
-date: 2010-03-23 01:30:13 +0900
+date: 2010-03-23 01:30:13
 categories: Default
 tags: test Test
 comments_gitment: true
