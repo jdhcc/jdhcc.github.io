@@ -47,15 +47,15 @@ js: ["post.js"]
 <section class="comments" id="comments">
     <div id="gitment_thread"></div>
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/gitment.css">
-    <script src="https://jjeejj.github.io/js/gitment.js"></script>
+    <script src="https://www.wenjunjiang.win/js/gitment.js"></script> 
     <script>
         var gitment = new Gitment({
-            id: '{{page.date | date: "%Y-%m-%d %H:%M:%S %p"}}',
-            owner: 'jdhcc',
-            repo: 'jdhcc.github.io',
+            id: {{page.date | date: "%Y-%m-%d %H:%M:%S %p"}},
+            owner: jdhcc,
+            repo: jdhcc.github.io,
             oauth: {
-                client_id: 'eb8c1906e0455c3facd1',
-                client_secret: 'aa6826108a003567fa169a23a96f767bb24fb5e0',
+                client_id: eb8c1906e0455c3facd1,
+                client_secret: aa6826108a003567fa169a23a96f767bb24fb5e0,
             }
         })
         gitment.render('gitment_thread')
