@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 검색
+menu: 검색
+description: "검색어를 입력해주세요."
 permalink: search
-icon: oction-list-unordered
-isNavItem: true
-css: ["article-list.css","category.css","index.css"]
-js: ["category.js"]
+tipue_search_active: true
+exclude_from_search: true
 ---
+{% include search.html %}

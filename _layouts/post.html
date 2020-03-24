@@ -4,7 +4,7 @@ css: ["post.css"]
 js: ["post.js"]
 ---
 <div id="post-info">
-  <h3>{{page.title}}</h3>
+  <h4>{{page.title}}</h4>
   <ul class="collapsible hoverable" data-collapsible="accordion">
     <li>
       <div class="collapsible-header">
@@ -44,12 +44,10 @@ js: ["post.js"]
 <div class="divider"></div>
 
 {% if site.gitment_shortname and page.comments_gitment == true %}
-<script src="https://cdn.jsdelivr.net/npm/bluebird@3.5.1/js/browser/bluebird.core.min.js"></script>
 <section class="comments" id="comments">
     <div id="gitment_thread"></div>
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/gitment.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitment@0.0.3/style/default.css" />
-    <script src="https://cdn.jsdelivr.net/npm/gitment@0.0.3/dist/gitment.browser.js"></script>
+    <script src="{{site.baseurl}}/assets/js/gitment.js"></script>
     <script>
         var gitment = new Gitment({
             id: '{{page.date | date: "%Y-%m-%d %H:%M:%S %p"}}',

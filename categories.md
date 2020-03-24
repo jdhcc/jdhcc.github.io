@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 카테고리
+menu: 카테고리
 permalink: categories
 icon: oction-list-unordered
 isNavItem: true

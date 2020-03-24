@@ -16,7 +16,7 @@ permalink: /:year/:month/:day/:title
 repository: jdhcc/jdhcc.github.io
 paginate: 5
 
-# MatJek specific configurations
+# specific configurations
 github_profile: "https://github.com/jdhcc"
 user: "(͡°  ͜ʖ ͡°) ฅʕ•ᴥ•ʔฅ"
 user_email: "jdhcc17@gmail.com"
@@ -37,3 +37,11 @@ exclude:
 sass:
   style: compressed
 future: true
+tipue_search:
+  include:
+    pages: false
+    collections: []
+  exclude:
+    files: [search.html, index.html, tags.html]
+    categories: []
+    tags: []

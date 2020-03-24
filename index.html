@@ -2,6 +2,10 @@
 layout: page
 css: ["index.css"]
 ---
+<div class="postCount">
+전체 ( {{site.posts | size}} )
+</div>
+
 <div class="row">
   {% for post in paginator.posts %}
   <div class="col s12">

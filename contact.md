@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "문의"
+menu: 문의
 css: ["contact.css"]
 ---
 <div class="col s12">
