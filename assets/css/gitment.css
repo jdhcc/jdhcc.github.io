@@ -89,11 +89,11 @@ a.gitment-header-issue-link,
 a.gitment-header-issue-link:visited {
     float: right;
     line-height: 30px;
-    color: #666;
+    color: #908080;
 }
 
 a.gitment-header-issue-link:hover {
-    color: #666;
+    color: #902020;
 }
 
 .gitment-comments-loading,
@@ -239,7 +239,7 @@ a.gitment-footer-project-link,
 a.gitment-footer-project-link:visited,
 a.gitment-editor-login-link,
 a.gitment-editor-login-link:visited {
-    color: #2196F3;
+    color: #902020;
 }
 
 a.gitment-editor-logout-link,
@@ -248,7 +248,7 @@ a.gitment-editor-logout-link:visited {
 }
 
 a.gitment-editor-logout-link:hover {
-    color: #2196F3;
+    color: #902020;
     text-decoration: none;
 }
 
@@ -366,7 +366,7 @@ a.gitment-editor-footer-tip {
 }
 
 a.gitment-editor-footer-tip:hover {
-    color: #2196F3;
+    color: #902020;
     text-decoration: none;
 }
 
@@ -426,7 +426,7 @@ a.gitment-editor-footer-tip:hover {
 .gitment-comments-init-btn:disabled,
 .gitment-editor-submit:disabled {
     color: rgba(255,255,255,0.75);
-    background-color: #5A3931;
+    background-color: #002040;
     box-shadow: none;
 }
 

@@ -11,7 +11,7 @@
       {% endif %}
     </title>
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/favicon.ico">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/materialize.min.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
     {% for css in layout.css %}
@@ -63,8 +63,8 @@
         <li><a class="waves-effect" href="{{site.baseurl}}/search"><i class="material-icons">search</i>검색</a></li>
         <li><div class="divider"></div></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/about"><i class="material-icons">person</i>블로그 소개</a></li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li>
         <li><a class="waves-effect" href="{{site.baseurl}}/contact"><i class="material-icons">email</i>문의</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li>
       </ul>
     </header>
     <main>

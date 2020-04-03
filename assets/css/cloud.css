@@ -11,10 +11,10 @@
     left:0px;
     text-decoration:none;
     padding: 3px 6px;
-    color: #2ca6cb;
+    color: #908080;
 }
 .cloud a:hover{
-    color: orchid;
+    color: #902020;
 }
 
 @media screen and (max-width: 768px){

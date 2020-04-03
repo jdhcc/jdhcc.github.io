@@ -6,10 +6,13 @@ categories: ruby
 tags: ruby gem
 comments_gitment: true
 ---
+
 * TOC
 {:toc}
 
-#  Gem 추가
+---
+
+##  Gem 추가
 
 - `/rubygems-x.x.x` 디렉터리 접속
 - `Gemfile` 파일 오픈
