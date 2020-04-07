@@ -2,8 +2,8 @@
 layout: post
 title: Github 블로그 구동 관련
 date: 2020-03-15 14:08:10
-categories: github
-tags: github jekyll
+categories: Github
+tags: Github Jekyll
 comments_gitment: true
 ---
 

@@ -1,15 +1,19 @@
 <div class="col s12 cat-div">
   <div class="cat-list">
-    <div class="chip z-depth-1">등록된 카테고리 : {{site.categories | size}}개</div>
-    <div>
+    <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown1'>
+      <span class='dropdown-left'>카테고리 선택</span>
+      <span class='dropdown-right'>({{site.categories | size}})</span>
+    </a>
+    <ul id='dropdown1' class='dropdown-content'>
       {% for category in site.categories %}
-         <a class="cat-chip categories-item" href="javascript:void(0);" cate="{{ category | first }}">
-	<div class="chip z-depth-1">
-	   {{category | first}} ({{category | last | size}})
-	</div>
-         </a>
+        <li>
+          <a class="cat-chip categories-item" href="javascript:void(0);" cate="{{ category | first }}">
+            {{category | first}}
+            <span class='dropdown-right'>({{category | last | size}})</span>
+          </a>
+        </li>
       {% endfor %}
-    </div>
+    </ul>
   </div>
 
   <div class="divider"></div>
